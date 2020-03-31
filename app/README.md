@@ -11,7 +11,7 @@ chance to let basketball lovers talk in the real world.
 ## Features
 
 The Android app lets you:
-- Create Personal profile
+- Create Personal Profile
 - Create / Join a team
 - Create / Join a Personal Match Game
 - Create / Join a Team Match Game
