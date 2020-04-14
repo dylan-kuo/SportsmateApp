@@ -68,7 +68,7 @@ public class SetupActivity extends AppCompatActivity {
 
         // Connects to current user
         currentUserID = mAuth.getCurrentUser().getUid();
-        UsersRef = FirebaseDatabase.getInstance().getReference().child(currentUserID);
+        UsersRef = FirebaseDatabase.getInstance().getReference().child("User").child(currentUserID);
         UserProfileImageRef = FirebaseStorage.getInstance().getReference().child("Profile Images");
 
         UserName = (EditText) findViewById(R.id.setup_username);

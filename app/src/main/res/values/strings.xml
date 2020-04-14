@@ -6,5 +6,13 @@
     <string name="my_account">My Account</string>
     <string name="logout">Logout</string>
     <string name="drawer_open">Drawer Open</string>"
-    <string name="drawer_close">Drawer Close</string>"
+    <string name="drawer_close">Drawer Close</string>
+    <string name="create_personal_match">Create Personal Match</string>
+    <string name="location">Location</string>
+    <string name="todo">TODO</string>
+    <string name="date_of_this_game">Date of This Game(mm-dd-yyyy)</string>
+    <string name="start_from">Start From(e.g. 08:00:00)</string>
+    <string name="end_to_e_g_10_00_00">End To(e.g. 10:00:00)</string>
+    <string name="number_of_initial_player">Number of Initial Player</string>
+    <string name="create">Create</string>"
 </resources>

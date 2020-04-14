@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "114313945771-89lesnl2seb7idatp397oksf18gsu8mc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tkuo.sportsmate",
+            "certificate_hash": "d18f065625adef77bf02633d16a42cd2460cd390"
+          }
+        },
+        {
           "client_id": "114313945771-qus23hkp8np9k97rolqg5tqtindksmp8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

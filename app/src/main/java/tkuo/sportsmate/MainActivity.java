@@ -126,6 +126,14 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
+    // Switch to CreatePersonalMatch Activity and clear any other activities on top of it
+    private void sendUserToCreateMatchActivity() {
+        Intent createPersonalMatchIntent = new Intent(MainActivity.this, ChooseMatchActivity.class);
+        createPersonalMatchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(createPersonalMatchIntent);
+        finish();
+    }
+
 
     // Set up hamburger menu connection to toggle navigation
     @Override
@@ -140,6 +148,10 @@ public class MainActivity extends AppCompatActivity {
     // Temporary toast message to test each menu item
     private void UserMenuSelector(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.nav_create_match:
+                Toast.makeText(this, "Create New Match", Toast.LENGTH_SHORT).show();
+                sendUserToCreateMatchActivity();
+                break;
             case R.id.nav_profile:
                 Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show();
                 break;
